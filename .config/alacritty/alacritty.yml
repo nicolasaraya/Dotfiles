@@ -1,0 +1,27 @@
+import:
+    - ~/.config/alacritty/dracula.yml
+    
+window:
+    dimensions:
+        columns: 90
+        lines: 25
+    padding: 
+        x: 20
+        y: 20
+
+    decorations: None
+
+    startup_mode: Maximized
+
+    opacity: 0.9
+
+        
+font:
+    normal:
+        #family: "JetBrainsMono Nerd Font"
+        #family: "MesloLGS NF"
+        family: "Hack Nerd Font"
+    size: 12.0
+    
+shell:
+  program: /usr/bin/tmux
